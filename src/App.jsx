@@ -11,7 +11,7 @@ const App = () => {
 
   return (
     <div>
-      <h2>Count {count}</h2>
+      <h2>Count: {count}</h2>
       <h3>Double: {double}</h3>
       <button onClick={increment}>Increment</button>
     </div>
